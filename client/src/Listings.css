@@ -1,0 +1,51 @@
+/* src/Listings.css */
+.Listings {
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.Listings h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+}
+
+.listings-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.listing {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+    width: 300px;
+    text-align: left;
+}
+
+.listing img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.listing h2 {
+    margin: 15px;
+    font-size: 1.5em;
+    color: #007bff;
+}
+
+.listing p {
+    margin: 15px;
+    font-size: 1em;
+    color: #555;
+}
+
+.listing:hover {
+    transform: scale(1.05);
+}

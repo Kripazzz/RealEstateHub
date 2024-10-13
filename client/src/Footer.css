@@ -1,0 +1,24 @@
+/* src/Footer.css */
+.App-footer {
+   
+    background-color: #282c34;
+    margin-top: 0;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .footer-links {
+    margin-top: 10px;
+  }
+  
+  .footer-links a {
+    margin: 0 10px;
+    color: #61dafb;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
